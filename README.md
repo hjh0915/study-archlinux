@@ -2,10 +2,10 @@
 ============
 一、下载并设置导入u盘
 =================
-    先从archlinux官网[http://mirrors.163.com/archlinux/iso/2020.06.01/]
+    先从archlinux官网<http://mirrors.163.com/archlinux/iso/2020.06.01/>
     下载archlinux-2020.06.01-x86_64.iso文件
     因为iso文件不能直接导入u盘中，所以需要格式化，刻入u盘
-    在rufus官网[https://rufus.ie/downloads/]
+    在rufus官网<https://rufus.ie/downloads/>
     下载rufus-3.10.exe。
 二、利用u盘启动（F2，选中option1为UEFI NET...）
 =========================================
