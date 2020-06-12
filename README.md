@@ -6,21 +6,22 @@
     下载archlinux-2020.06.01-x86_64.iso文件
     因为iso文件不能直接导入u盘中，所以需要格式化，刻入u盘
     在rufus官网<https://rufus.ie/downloads/>
-    下载rufus-3.10.exe。
+    下载rufus-3.10.exe
+
 二、利用u盘启动（F2，选中option1为UEFI NET...）
 ------------------------------------------
     ### 1、验证启动模式
         ```
-        # ls /sys/firmware/efi/efivars
+        ls /sys/firmware/efi/efivars
         ```
     ### 2、连接网络（先使用有线网络）
         #### a.查看网络类型
         ```
-        # ip link
+        ip link
         ```
         #### b.连接有线网络
         ```
-        # dhcpcd
+        dhcpcd
         ```
         #### c.查看是否连接成功
         ```
@@ -28,7 +29,7 @@
         ```
     ### 3、更新系统时间
         ```
-        # timedatectl set-ntp true
+        timedatectl set-ntp true
         ```
     ### 4、建立硬盘分区
         ```
